@@ -66,6 +66,28 @@ If the automated scripts don't work, you can install manually:
     npm install
     ```
 
+## 🍪 Cookie Setup (First Time)
+
+To use the automated login feature, you need to export your Apollo.io cookies:
+
+1. **Install Cookie Editor Extension**:
+   - Chrome/Edge: [Cookie Editor](https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm)
+   - Firefox: [Cookie Editor](https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/)
+
+2. **Export Cookies from Apollo.io**:
+   - Open your browser and log in to [Apollo.io](https://app.apollo.io/)
+   - Click the **Cookie Editor** extension icon in your browser toolbar
+   - Click the **Export** button (bottom right)
+   - This will copy your cookies to clipboard as JSON
+
+3. **Import Cookies to the App**:
+   - Run the application: `npm run start-app`
+   - Go to the **Settings** tab in the app
+   - Paste the copied JSON into the cookie input field
+   - Click **Save Cookies**
+
+> **Note**: You only need to do this once. The app will automatically use these cookies for future sessions. If login fails, the app will prompt you to log in manually and will auto-save the new cookies.
+
 ## 💻 Development
 
 To run the application in development mode (with hot-reload):
