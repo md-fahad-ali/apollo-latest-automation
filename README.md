@@ -18,10 +18,47 @@ A powerful, automated lead scraper for Apollo.io, built with Electron, React, an
 
 ## 🛠️ Installation
 
+### Prerequisites
+- **Node.js** 16.x or higher ([Download here](https://nodejs.org/))
+- **npm** (comes with Node.js)
+- **Git** ([Download here](https://git-scm.com/))
+
+### Quick Install (Recommended)
+
+#### For Linux/Mac:
+```bash
+# Clone the repository
+git clone https://github.com/md-fahad-ali/apollo-latest-automation.git
+cd apollo-latest-automation
+
+# Run the installation script
+chmod +x install.sh
+./install.sh
+```
+
+#### For Windows:
+```powershell
+# Clone the repository
+git clone https://github.com/md-fahad-ali/apollo-latest-automation.git
+cd apollo-latest-automation
+
+# Run the installation script (PowerShell)
+.\install.ps1
+```
+
+> **Note**: On Windows, you may need to enable script execution:
+> ```powershell
+> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+> ```
+
+### Manual Installation
+
+If the automated scripts don't work, you can install manually:
+
 1.  **Clone the repository**:
     ```bash
-    git clone <repository-url>
-    cd apollo-automation-app
+    git clone https://github.com/md-fahad-ali/apollo-latest-automation.git
+    cd apollo-latest-automation
     ```
 
 2.  **Install dependencies**:
